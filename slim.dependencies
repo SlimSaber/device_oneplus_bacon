@@ -38,5 +38,15 @@
    "repository": "SlimRoms/frameworks_opt_connectivity",
    "target_path": "frameworks/opt/connectivity",
    "branch":      "kk4.4"
+ },
+ {
+   "repository": "TheLoonyBin/proprietary_vendor_oppo",
+   "target_path": "vendor/oppo",
+   "branch":      "kk4.4"
+ },
+ {
+   "repository": "TheLoonyBin/proprietary_vendor_oneplus",
+   "target_path": "vendor/oneplus",
+   "branch":      "kk4.4"
  }
 ]
