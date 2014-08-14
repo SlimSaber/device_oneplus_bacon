@@ -17,6 +17,9 @@
 # Inherit from MSM8974 common
 -include device/oppo/msm8974-common/BoardConfigCommon.mk
 
+# Disable periodic battery polling
+HEALTHD_CHATTY_MODE := false
+
 # Compiler flags
 TARGET_GCC_VERSION_EXP := 4.8
 TARGET_USE_O3 := true
