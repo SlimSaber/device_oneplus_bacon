@@ -40,12 +40,12 @@
    "branch":      "kk4.4"
  },
  {
-   "repository": "TheLoonyBin/proprietary_vendor_oppo",
+   "repository": "SlimSaber/proprietary_vendor_oppo",
    "target_path": "vendor/oppo",
    "branch":      "kk4.4"
  },
  {
-   "repository": "TheLoonyBin/proprietary_vendor_oneplus",
+   "repository": "SlimSaber/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
    "branch":      "kk4.4"
  }
