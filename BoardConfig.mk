@@ -63,5 +63,7 @@ TARGET_WCNSS_MAC_PREFIX := e8bba8
 # Workaround for factory issue
 BOARD_VOLD_CRYPTFS_MIGRATE := true
 
+AUDIO_FEATURE_ENABLED_ULTRA_LOW_LATENCY := true
+
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
