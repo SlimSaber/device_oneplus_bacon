@@ -27,3 +27,6 @@ PRODUCT_MANUFACTURER := OnePlus
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=bacon BUILD_FINGERPRINT="fingerprint: oneplus/bacon/A0001:4.4.2/KVT49L/XNPH22R:user/release-keys" PRIVATE_BUILD_DESC="bacon-user 4.4.2 KVT49L XNPH22R release-keys"
+
+# Override default boot animation
+PRODUCT_BOOTANIMATION := device/oneplus/bacon/bootanimation.zip
