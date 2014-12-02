@@ -35,11 +35,6 @@
    "branch":      "lp5.0-caf-8974"
  },
  {
-   "repository": "CyanogenMod/android_device_qcom_sepolicy",
-   "target_path": "device/qcom/sepolicy",
-   "branch":      "cm-12.0"
- },
- {
    "repository": "SlimSaber/proprietary_vendor_oppo",
    "target_path": "vendor/oppo",
    "branch":      "lp5.0"
