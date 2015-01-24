@@ -22,10 +22,13 @@ HEALTHD_CHATTY_MODE := false
 
 # Compiler flags
 TARGET_GCC_VERSION_EXP := 4.8
-TARGET_USE_O3 := true
-STRICT_ALIASING := true
+TARGET_USE_PIPE := true
+ENABLE_MODULAR_O3 := true
 SUPPRES_UNUSED_WARNING := true
-OPT_MEMORY := true
+KRAIT_TUNINGS := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING2 := true
 BOOT_ZIP_OUT_FILE := SlimKernel-$(TARGET_DEVICE)-$(PLATFORM_VERSION)-$(shell date +"%Y%m%d")
 
 # Kernel
