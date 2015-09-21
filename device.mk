@@ -278,6 +278,11 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libxml2
 
+# CameraNextMod
+PRODUCT_PACKAGES += \
+    CameraNextMod \
+    libjni_mosaic_next
+
 # USB
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true \
